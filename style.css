@@ -15,10 +15,176 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
 }
 
-main {
+a {
+  text-decoration: none;
+}
+
+.main {
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.hero {
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header h1 {
+  color: var(--light-grey);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-links ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header-links a {
+  color: var(--grey);
+}
+
+.hero-main {
+  margin: 80px 0;
+  display: flex;
+}
+
+.title {
+  width: 50%;
+  color: var(--light-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 70px;
+}
+
+.title h1 {
+  color: var(--light-grey);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.title button {
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--blue);
+  padding: 7px 40px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.hero-img {
+  display: flex;
+  background-color: grey;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.random-info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--dark);
+  margin: 40px 0;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.image {
+  width: 170px;
+  text-align: center;
+  color: var(--dark);
+}
+
+.square {
+  border: 4px var(--blue) solid;
+  height: 170px;
+  width: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  width: 81%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: var(--grey);
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.quote h4 {
+  text-align: right;
+  font-size: 24px;
+}
+
+.action {
+  display: flex;
+  margin: 80px 0;
+  padding: 40px 80px;
+  background-color: var(--blue);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.action-main {
+  color: var(--light-grey);
+  text-align: left;
+}
+
+.action button {
+  color: var(--light-grey);
+  background-color: transparent;
+  border: solid var(--light-grey) 2px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 40px;
+}
+
+footer {
+  color: var(--light-grey);
+  text-align: center;
+  background-color: var(--dark);
+  padding: 40px 0;
+  width: 100%;
 }
