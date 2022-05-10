@@ -17,6 +17,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
 a {
@@ -33,6 +37,8 @@ a {
 
 .hero {
   background-color: var(--dark);
+  background-image: var(--dark);
+
   display: flex;
   flex-direction: column;
 }
